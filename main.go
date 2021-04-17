@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+	// version 4 Echo framework
 	e := echo.New()
 	//Middleware
 	e.Use(middleware.Logger())
